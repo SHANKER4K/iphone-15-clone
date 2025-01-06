@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          boxShadow: {
+            custom: '-30px 30px 0',
+          },
+          colors: {
+            blue: "#2997FF",
+            gray: {
+              DEFAULT: "#86868b",
+              100: "#94928d",
+              200: "#afafaf",
+              300: "#42424570",
+            },
+            zinc: "#101010",
+          },
+        }
+      }
+    }
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iPhone 15</title>
+  <link rel="icon" href="assets/images/apple.svg" type="image/svg+xml" />
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
